@@ -146,14 +146,14 @@ width: 75%;
   }
 
   .favourite-card > .card {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     margin: 10px;
   }
 
   .neighbourhood-card {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
   }
   .neighbourhood-card > .neighbourhood-img{
     height: 300px;
