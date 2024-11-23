@@ -129,19 +129,19 @@ a {
   }
 
   input[type="date"],
-  input[type="text"]{
+  input[type="text"] {
     width: 75%;
   }
 
-  #search-btn{
-width: 75%;
+  #search-btn {
+    width: 75%;
   }
 
   .search-container {
     height: fit-content;
   }
 
-  #mt-20{
+  #mt-20 {
     margin-top: 10px;
   }
 
@@ -152,13 +152,8 @@ width: 75%;
   }
 
   .neighbourhood-card {
-    height: 300px;
-    width: 300px;
+    height: 320px;
+    width: 320px;
   }
-  .neighbourhood-card > .neighbourhood-img{
-    height: 300px;
-    width: 300px;
-    object-fit: cover;
-    margin: 10px;
-  }
+  
 }
