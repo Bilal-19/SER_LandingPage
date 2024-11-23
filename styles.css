@@ -155,5 +155,11 @@ a {
     height: 320px;
     width: 320px;
   }
+
+  #enquiry-btn{
+    display: block;
+    width: fit-content;
+    margin-top: 20px;
+  }
   
 }
