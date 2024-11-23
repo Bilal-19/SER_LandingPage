@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" id="home-hero-banner-img">
+            <div class="col-md-1 d-flex flex-md-column flex-sm-row justify-content-md-around justify-content-sm-between align-items-center" style="background-color: rgba(0,0,0,0.7)">
+                <a class="navbar-brand hide-img-md show-img-sm" href="#">
+                    <img src="./media/company_logo.jpg" alt="company logo" class="img-fluid">
+                </a>
+                <a href=""><i class="fa-brands fa-square-facebook fa-2x margin-sm-right-20"></i></a>
+                <a href=""><i class="fa-brands fa-twitter fa-2x margin-sm-right-20"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin fa-2x margin-sm-right-20"></i></a>
+            </div>
+            <div class="col-md-11">
+                <nav class="navbar navbar-expand-lg mb-5">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" aria-current="page" href="#">APPARTMENTS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">BENEFITS</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">CORPORATE</a>
+                                </li>
+                            </ul>
+                            <a class="navbar-brand hide-img-sm" href="#">
+                                <img src="./media/company_logo.jpg" alt="company logo" class="img-fluid">
+                            </a>
+                            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">BLOG</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light" href="#">ENQUIRY</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="row" id="mt-20">
+                    <div class="col-md-10 mx-auto text-light" style="background-color: rgba(0,0,0,0.4)">
+                        <p class="fs-5 text-center text-uppercase pt-5 px-5">Serviced Corporate Appartments</p>
+                        <form action=""
+                            class="mb-5" id="search-bar">
+                            <input type="text" class="mx-2" placeholder="SEARCH BY AREA" required>
+                            <input type="date" placeholder="CHECK IN" class="mx-2" required>
+                            <input type="date" placeholder="CHECK OUT" class="mx-2" required>
+                            <button id="search-btn" type="submit">SEARCH</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="fs-3 text-uppercase">Favourites:</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="./media/favourites_1.webp" alt=""
+                        class="img-fluid object-fit-cover">
+                    <h6 class="card-text p-2">FLEET STREET</h6>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 px-2">City of London</p>
+                        <p class="mb-0 px-2">from £259</p>
+                    </div>
+                    <p class="mt-0 px-2">2 bedroom</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="./media/favourites_2.jpg" alt=""
+                        class="img-fluid object-fit-cover">
+                    <h6 class="card-text p-2">MOORFIELDS</h6>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 px-2">Hackney</p>
+                        <p class="mb-0 px-2">from £299</p>
+                    </div>
+                    <p class="mt-0 px-2">2 bedrooms</p>
+                </div>
+            </div>
+
+
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="./media/favourites_3.jpg" alt=""
+                        class="img-fluid object-fit-cover">
+                    <h6 class="card-text p-2">HOXTON</h6>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 px-2">Hackney</p>
+                        <p class="mb-0 px-2">from £199</p>
+                    </div>
+                    <p class="mt-0 px-2">1 & 2 bedrooms</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="card shadow">
+                    <img src="./media/favourites_4.jpg" alt=""
+                        class="img-fluid object-fit-cover">
+                    <h6 class="card-text p-2">BATHCOURT</h6>
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 px-2">Islington</p>
+                        <p class="mb-0 px-2">from £299</p>
+                    </div>
+                    <p class="mt-0 px-2">1 bedroom</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9933.259719847401!2d-0.13748113914276847!3d51.507438004617406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce37bbdb95%3A0x5120415568fd2d8b!2sCentral%20London%2C%20London%20WC2N%205DU%2C%20UK!5e0!3m2!1sen!2s!4v1732259214866!5m2!1sen!2s"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <p class="fs-3">THE NEIGHBOURHOODS:</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <img src="./media/regents_park.webp" alt=""
+                    class="img-fluid neighbourhood-img rounded shadow">
+                <p class="fs-5 text-uppercase mb-0">Regent's Park</p>
+                <p class="mt-0">Luxurious green spaces footsteps from Oxford Street</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="./media/shoreditch.jpg" alt=""
+                    class="img-fluid neighbourhood-img rounded shadow">
+                <p class="fs-5 text-uppercase mb-0">Shoreditch</p>
+                <p class="mt-0">Hipster central and full of edge</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="./media/barbican.jpg" alt=""
+                    class="img-fluid neighbourhood-img rounded shadow">
+                <p class="fs-5 text-uppercase mb-0">Barbican</p>
+                <p class="mt-0">Home to the Barbican Center of Performing Arts</p>
+            </div>
+
+            <div class="col-md-3">
+                <img src="./media/farringdon.jpg" alt=""
+                    class="img-fluid neighbourhood-img rounded shadow">
+                <p class="fs-5 text-uppercase mb-0">Farringdon</p>
+                <p class="mt-0">Footsteps away from the City of London</p>
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <p class="fs-3">THE BLOG:</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./media/blog_img_1.jpg" alt="" class="img-fluid blog-img">
+                <p class="text-uppercase fs-5">Borough Market Party for the Bastille</p>
+                <p class="col-md-11">A whole day of events - and then some... From wine testing to a food fair and
+                    small theatrical shows.
+                    The balloons were still there in the late evenings as well as the drinking crowd. The live music
+                    played loud and dancing carried on late.</p>
+            </div>
+
+
+            <div class="col-md-6">
+                <img src="./media/blog_img_2.jpg" alt="" class="img-fluid blog-img">
+                <p class="text-uppercase fs-5">Spitalfields Market: Grand Day for Shopping</p>
+                <p class="col-md-11">
+                    Ever not wanted to have another boring day? Just add a little optimism, some ingenuity and there you
+                    have it - no longer stuck at home. Spitalfield's Market has lots of little pop up shops selling
+                    everything from used vinyl to hand crafted jewellery and vintage clothes.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid  text-light pb-5" id="footer-color">
+        <div class="row d-flex justify-content-around align-items-center">
+            <div class="col-md-5">
+                <h5 class="pt-5">Home away from home</h5>
+                <p>
+                    Feel like home at one of our modern appartments located in the heart of London. Make your own meals,
+                    order & takeaway, enjoy the space and privacy, just like home.
+                </p>
+            </div>
+            <div class="col-md-5">
+                <a href="" id="contact-btn">+44 (0) 20 7992 8022</a>
+                <a href="" id="enquiry-btn">MAKE AN ENQUIRY</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-11 mx-auto">
+                <hr>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-around align-items-center">
+            <div class="col-md-4">
+                <p class="px-2 fw-bold">Site Map</p>
+                <div class="d-flex justify-content-between">
+                    <a href="" class="sitemap-link px-2">Home Page</a>
+                    <a href="" class="sitemap-link px-2">Benefits</a>
+                    <a href="" class="sitemap-link px-2">About Us</a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a href="" class="sitemap-link px-2">Our Appartment</a>
+                    <a href="" class="sitemap-link px-2">Corporate</a>
+                    <a href="" class="sitemap-link px-2">Make An Enquiry</a>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <p class="px-2 fw-bold">Social Media</p>
+                <div class="d-flex justify-content-between">
+                    <a href="" class="sitemap-link px-2">Facebook</a>
+                    <a href="" class="sitemap-link px-2">Linkedin</a>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <a href="" class="sitemap-link px-2">Twitter</a>
+                    <a href="" class="sitemap-link px-2">YouTube</a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <p class="px-2 fw-bold">Contact Us</p>
+                <a href="" class="sitemap-link px-2 d-block">+44 (0) 20 7992 8022</a>
+                <a href="" class="sitemap-link px-2">info@smartpropertyretailer.com</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-dark text-light">
+        <div class="row pt-2 d-flex justify-content-around align-items-center">
+            <div class="col-md-5">
+                <p>&copy; Copyright 2024 Smart Property Retailer. All rights reserved.</p>
+            </div>
+            <div class="col-md-2">
+                <p>Developed by ZH Tech</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
